@@ -3,8 +3,8 @@ package com.hong.model.system;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "user")
-public class User {
+@Table(name = "system_user")
+public class SystemUser {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

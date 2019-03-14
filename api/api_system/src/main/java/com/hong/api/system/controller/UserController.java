@@ -1,6 +1,6 @@
 package com.hong.api.system.controller;
 
-import com.hong.model.system.User;
+import com.hong.model.system.SystemUser;
 import com.hong.service.system.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,7 +19,7 @@ public class UserController {
 
     @GetMapping("/getall")
     public String getAllUser(){
-        List<User> all = userService.getAll();
+        List<SystemUser> all = userService.getAll();
 
         return "success";
     }

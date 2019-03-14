@@ -1,9 +1,9 @@
 package com.hong.service.system;
 
-import com.hong.model.system.User;
+import com.hong.model.system.SystemUser;
 
 import java.util.List;
 
 public interface UserService {
-    List<User> getAll();
+    List<SystemUser> getAll();
 }
